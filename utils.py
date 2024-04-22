@@ -4,6 +4,4 @@ def load_titanic_female():
     print(df.columns)
     print(df["sex"].unique())
     female_df = df[df["sex"]=="female"]
-    print(female_df)
-
-load_titanic_female()
+    return female_df
